@@ -1,13 +1,13 @@
-.odd {
+.list {
+  line-height: 50px;
+}
+
+li:nth-of-type(odd) {
   background-color: #cecece;
   font-size: large;
 }
 
-.even {
+li:nth-of-type(even) {
   background-color: #efe3e3;
   font-size: large;
-}
-
-.list {
-  line-height: 50px;
 }
